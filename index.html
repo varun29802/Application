@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonarQube Practice Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SonarQube Practice Quiz</h1>
+        <form id="quizForm">
+            <div id="question-container"></div>
+            <div id="buttons-container">
+                <button type="button" id="next-button" onclick="nextQuestion()">Next</button>
+                <button type="button" id="submit-button" onclick="submitTest()">Submit</button>
+            </div>
+        </form>
+        <div id="result"></div>
+        <div id="answers"></div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
